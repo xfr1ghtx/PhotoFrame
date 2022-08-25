@@ -17,7 +17,6 @@
 		8B4053AA28B631AB00E6E776 /* PhotoCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4053A928B631AB00E6E776 /* PhotoCollectionViewCellViewModel.swift */; };
 		8B4053AE28B6346D00E6E776 /* PresentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4053AD28B6346D00E6E776 /* PresentationViewModel.swift */; };
 		8B4053B028B635EF00E6E776 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4053AF28B635EF00E6E776 /* StartViewModel.swift */; };
-		8B4053B428B6695800E6E776 /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4053B328B6695800E6E776 /* ImageStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		8B4053A928B631AB00E6E776 /* PhotoCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		8B4053AD28B6346D00E6E776 /* PresentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewModel.swift; sourceTree = "<group>"; };
 		8B4053AF28B635EF00E6E776 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
-		8B4053B328B6695800E6E776 /* ImageStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 		8B40538E28B6197800E6E776 /* photoFrame */ = {
 			isa = PBXGroup;
 			children = (
-				8B4053B328B6695800E6E776 /* ImageStorage.swift */,
 				8B40538F28B6197800E6E776 /* AppDelegate.swift */,
 				8B40539128B6197800E6E776 /* SceneDelegate.swift */,
 				8B40539328B6197800E6E776 /* StartViewController.swift */,
@@ -175,7 +172,6 @@
 				8B40539028B6197800E6E776 /* AppDelegate.swift in Sources */,
 				8B4053AE28B6346D00E6E776 /* PresentationViewModel.swift in Sources */,
 				8B4053AA28B631AB00E6E776 /* PhotoCollectionViewCellViewModel.swift in Sources */,
-				8B4053B428B6695800E6E776 /* ImageStorage.swift in Sources */,
 				8B40539228B6197800E6E776 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

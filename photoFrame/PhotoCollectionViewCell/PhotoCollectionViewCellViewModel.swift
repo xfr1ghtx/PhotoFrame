@@ -12,8 +12,6 @@ final class PhotoCollectionViewCellViewModel{
     
     let imageProvider: NSItemProvider
     
-    var isLoaded = false
-    
     var image: UIImage?
     
     init(imageProvider: NSItemProvider){
@@ -26,7 +24,6 @@ final class PhotoCollectionViewCellViewModel{
                 return
             }
             self?.image = resultImage
-            self?.isLoaded = true
         }
     }
     

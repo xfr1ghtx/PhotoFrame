@@ -11,8 +11,6 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     
     static let identifier = "PhotoCollectionViewCell"
     
-    var representedIdentifier: UUID?
-    
     private let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false

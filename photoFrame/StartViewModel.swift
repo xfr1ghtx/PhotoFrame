@@ -13,7 +13,6 @@ final class StartViewModel{
     var didGoToNextScreen: ((UIViewController) -> Void)?
     
     init(){
-        
     }
     
     func selectedPhotosDone(imageProviders: [NSItemProvider]){
